@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>SPOMIN</title>
+    </head>
+    <style>
+    table
+    {
+       
+        border: 5px lightblue;
+        border-collapse: collapse;
+        width:auto;
+        height:auto;
+        border-style: ridge;
+    }
+    td
+    {
+        border: ridge lightblue;
+        height: auto;
+        width: auto;
+        border-style:ridge;  
+    }
+    td
+    {
+        border: ridge lightblue;
+        height: auto;
+        width: auto;
+        border-style:ridge;  
+    }
+
+    
+    </style>
+    <body onload="randomiziraj()">
+            <input type="text" id="imeIgralca" value="" name="imeIgralca">
+            <input type="button" value="Oddaj" onclick="imeIgralca()">
+        <table>
+            <tr bgcolor="lightblue">
+                <td onclick="clicks(0)"><img width=200 height=100></td>
+                <td onclick="clicks(1)"><img width=200 height=100></td>
+                <td onclick="clicks(2)"><img width=200 height=100></td>
+             </tr>
+             <tr bgcolor="lightblue">
+                 <td onclick="clicks(3)"><img width=200 height=100></td>
+                 <td onclick="clicks(4)"><img width=200 height=100></td>
+                 <td onclick="clicks(5)"><img width=200 height=100></td>
+            </tr>
+
+            <tr bgcolor="lightblue">
+                 <td onclick="clicks(6)"><img width=200 height=100></td>
+                 <td onclick="clicks(7)"><img width=200 height=100></td>
+                 <td onclick="clicks(8)"><img width=200 height=100></td>
+            </tr>
+            <tr bgcolor="lightblue">
+                 <td onclick="clicks(9)"><img width=200 height=100></td>
+                 <td onclick="clicks(10)"><img width=200 height=100></td>
+                 <td onclick="clicks(11)"><img width=200 height=100></td>
+            </tr>
+            </table>
+            <script type="text/javascript" src="Spomin.js"></script>
+            <input type="button" value="Rezultat" onclick="izpisi()">
+            <div id="izpis"></div>
+    </body>
+</html>
